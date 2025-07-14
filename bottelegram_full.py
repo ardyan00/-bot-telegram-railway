@@ -15,7 +15,7 @@ import dns.resolver
 load_dotenv() # Aktifkan kembali untuk production
 
 # Get bot token from environment variables
-BOT_TOKEN = os.getenv('BOT_TOKEN', "7127611248:AAHhz8jmGWGoinOu2P-a1Tiw5UnsS3REEs8")
+BOT_TOKEN = os.getenv('BOT_TOKEN', "7127611248:AAE0EZXqOWeV37KWQx72x434Qhstq9oq4v0")
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
